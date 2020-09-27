@@ -9,6 +9,7 @@ import Dashboard from '../pages/Dashboard';
 import Cart from '../pages/Cart';
 
 import Logo from '../assets/logo.png';
+import { StatusBar } from 'react-native';
 
 const App = createStackNavigator();
 
