@@ -1,0 +1,10 @@
+{
+    "products": [
+      { "id": 123, "title": "Cadeira Gamer", "image_url": "https://images-americanas.b2w.io/produtos/01/00/img/54306/8/54306828_1GG.jpg", "price": 1000 },
+      { "id": 1234, "title": "iPhone XR", "image_url": "https://images.lojaiplace.com.br/imagens/small/iphone-xr-branco-1_z_small.jpg", "price": 3800 },
+      { "id": 12345, "title": "Caneca JavaScript", "image_url": "https://codegarage.com.br/wp-content/uploads/2017/11/caneca_javascript.png", "price": 35 },
+      { "id": 123456, "title": "Teclado Mecânico HyperX", "image_url": "https://images3.kabum.com.br/produtos/fotos/102433/teclado-mecanico-gamer-hyperx-alloy-origins-hx-kb6rdx-br_teclado-mecanico-gamer-hyperx-alloy-origins-hx-kb6rdx-br_1569421283_g.jpg", "price": 550 },
+      { "id": 1234567, "title": "Fone de ouvido Beats", "image_url": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MV8W2?wid=1144&hei=1144&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1559340831364", "price": 600 },
+      { "id": 12345678, "title": "Camiseta C#", "image_url": "https://cdn.awsli.com.br/600x450/608/608801/produto/28494689/f81895acbd.jpg", "price": 35 }
+    ]
+}

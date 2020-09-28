@@ -6,7 +6,9 @@ import { View, Image, StatusBar } from 'react-native';
 import formatValue from '../../utils/formatValue';
 import { useCart } from '../../hooks/cart';
 import api from '../../services/api';
-import logo from '../../assets/logo.png';
+
+
+import Logo from '../../assets/logo.png';
 
 import FloatingCart from '../../components/FloatingCart';
 
@@ -45,11 +47,12 @@ const Dashboard: React.FC = () => {
   }, []);
 
   function handleAddToCart(item: Product): void {
-    // TODO
+    addToCart(item);
   }
 
   return (
     <Container>      
+
       <ProductContainer>
         <ProductList
           data={products}
@@ -60,11 +63,7 @@ const Dashboard: React.FC = () => {
           }}
           renderItem={({ item }) => (
             <Product>
-
-              
               <ProductImage source={{uri: item.image_url}} />
-
-
               <ProductTitle>{item.title}</ProductTitle>
               <PriceContainer>
                 <ProductPrice>{formatValue(item.price)}</ProductPrice>

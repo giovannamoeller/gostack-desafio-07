@@ -9,7 +9,6 @@ import Dashboard from '../pages/Dashboard';
 import Cart from '../pages/Cart';
 
 import Logo from '../assets/logo.png';
-import { StatusBar } from 'react-native';
 
 const App = createStackNavigator();
 
@@ -25,7 +24,7 @@ const AppRoutes: React.FC = () => (
       options={{
         headerShown: true,
         headerTransparent: true,
-        headerTitle: () => <Image source={Logo} />,
+        headerTitle: () => <Image source={Logo}  />,
       }}
       name="Dashboard"
       component={Dashboard}
